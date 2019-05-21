@@ -78,8 +78,35 @@ namespace HackerRank
             string[] note = "two times two is four".Split(' ');
             checkMagazine(mgz, note);
             */
+
+
+            SolveCounTriplets();
+            ///SolveDictionary();
+            Console.WriteLine("...Program Exit...");
+            Console.ReadLine();
+        }
+
+        private static void SolveCounTriplets()
+        {
+            var arr = new List<long>();
+            long r;
+
+            //Test case 1
+            //arr = new List<long>() { 1, 5, 5, 25, 125 };
+            //r = 5;
+
+            //Test case 2
+            //arr = new List<long>() { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
+            //r = 1;
+
+            arr = new List<long>() { 1, 2, 1, 2, 4 };
+            r = 2;
+            CountTriplets.Solve(arr, r);
+        }
+
+        private static void SolveDictionary()
+        {
             //var fullPath = @"D:\OwaisWorkx\#Code\HackerRank\CodeSolutions\TestCases";
-            var fileData = new List<string>();
             //var isFirst = true;
             ////AppDomain.CurrentDomain.BaseDirectory + @"\TestCases\input18.txt"
             //foreach (string line in File.ReadLines(fullPath + "\\input18.txt", Encoding.UTF8))
@@ -95,15 +122,13 @@ namespace HackerRank
             //    }
             //    isFirst = false;
             //}
-
             //var str = "ive got a lovely bunch of coconuts,ive got some coconuts";
             var str = "two times three is not four,two times two is four";
-            fileData.Add(""); fileData.Add("");
+            var fileData = new List<string>() { "", "" };
             fileData.Add(str.Split(',')[0]);//"give me one grand today night");
             fileData.Add(str.Split(',')[1]);//"give one grand today");
 
             RansomNote.Solve_Dictionary1(fileData[2].Split(' '), fileData[3].Split(' '));
-            Console.ReadLine();
         }
 
         private static void NMultiples(int n)

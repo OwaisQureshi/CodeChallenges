@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleRun", "HackerRank\Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank", "CodeSolutions\HackerRank.csproj", "{2385A088-0A6A-40E8-92E7-2EBB9539E891}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeLeet", "CodeLeet\CodeLeet.csproj", "{BCF5672B-1891-4FEE-B8B1-44CDF5EC7A11}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode", "CodeLeet\LeetCode.csproj", "{BCF5672B-1891-4FEE-B8B1-44CDF5EC7A11}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgoLearning", "AlgoLearning\AlgoLearning.csproj", "{55DF09DE-BEBF-4742-995A-A155E040BAF8}"
 EndProject

@@ -49,9 +49,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CodeLeet\CodeLeet.csproj">
+    <ProjectReference Include="..\CodeLeet\LeetCode.csproj">
       <Project>{bcf5672b-1891-4fee-b8b1-44cdf5ec7a11}</Project>
-      <Name>CodeLeet</Name>
+      <Name>LeetCode</Name>
     </ProjectReference>
     <ProjectReference Include="..\CodeSolutions\HackerRank.csproj">
       <Project>{2385a088-0a6a-40e8-92e7-2ebb9539e891}</Project>

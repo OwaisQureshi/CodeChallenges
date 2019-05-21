@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace CodeLeet
 {
+    //Good one
+    //https://www.programcreek.com/2014/05/leetcode-plus-one-java/
+    //Jugar
+    //https://github.com/cherryljr/LeetCode/blob/master/Plus%20One.java
     public static class PlusOne
     {
         public static int[] Solve(int[] digits)

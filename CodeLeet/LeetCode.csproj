@@ -40,8 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PivotIndex.cs" />
-    <Compile Include="PlusOne.cs" />
+    <Compile Include="Learn\ArraysNstrings\PivotIndex.cs" />
+    <Compile Include="Learn\ArraysNstrings\PlusOne.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="Interview Prep Kit\Arrays\HourglassSum.cs" />
     <Compile Include="Interview Prep Kit\Arrays\LeftRotation.cs" />
+    <Compile Include="Interview Prep Kit\Dictionaries and Hashmaps\CountTriplets.cs" />
     <Compile Include="Interview Prep Kit\Dictionaries and Hashmaps\RansomNote.cs" />
     <Compile Include="Interview Prep Kit\Dictionaries and Hashmaps\TwoStrings.cs" />
     <Compile Include="Interview Prep Kit\Warmup Challenges\CountingValleys.cs" />
