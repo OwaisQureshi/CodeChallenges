@@ -4,16 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C1747CA4-F231-422A-A5EB-9FB2A8FC4C44}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>HackerRank</RootNamespace>
-    <AssemblyName>HackerRank</AssemblyName>
+    <ProjectGuid>{060F1D3F-7F0E-4443-8C51-72C594FD5F06}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FreeCodeCampAlgo</RootNamespace>
+    <AssemblyName>FreeCodeCampAlgo</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,7 +23,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -42,33 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="ConvertHtmlEntities.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\AlgoLearning\AlgoLearning.csproj">
-      <Project>{55df09de-bebf-4742-995a-a155e040baf8}</Project>
-      <Name>AlgoLearning</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\CodeLeet\LeetCode.csproj">
-      <Project>{bcf5672b-1891-4fee-b8b1-44cdf5ec7a11}</Project>
-      <Name>LeetCode</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\CodeSolutions\HackerRank.csproj">
-      <Project>{2385a088-0a6a-40e8-92e7-2ebb9539e891}</Project>
-      <Name>HackerRank</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DailyCodingProblem\DailyCodingProblem.csproj">
-      <Project>{38a1dd91-f60a-4c81-9f8d-d4a9fda79726}</Project>
-      <Name>DailyCodingProblem</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\FreeCodeCampAlgo\FreeCodeCampAlgo.csproj">
-      <Project>{060f1d3f-7f0e-4443-8c51-72c594fd5f06}</Project>
-      <Name>FreeCodeCampAlgo</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

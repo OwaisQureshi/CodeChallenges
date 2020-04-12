@@ -42,18 +42,25 @@
   <ItemGroup>
     <Compile Include="Interview Prep Kit\Arrays\HourglassSum.cs" />
     <Compile Include="Interview Prep Kit\Arrays\LeftRotation.cs" />
+    <Compile Include="Interview Prep Kit\Arrays\MinimumSwap.cs" />
     <Compile Include="Interview Prep Kit\Dictionaries and Hashmaps\CountTriplets.cs" />
     <Compile Include="Interview Prep Kit\Dictionaries and Hashmaps\RansomNote.cs" />
     <Compile Include="Interview Prep Kit\Dictionaries and Hashmaps\TwoStrings.cs" />
+    <Compile Include="Interview Prep Kit\StringManupilation\AlternatingStrings.cs" />
+    <Compile Include="Interview Prep Kit\StringManupilation\SherlockAndTheValidString.cs" />
     <Compile Include="Interview Prep Kit\Warmup Challenges\CountingValleys.cs" />
     <Compile Include="Interview Prep Kit\Warmup Challenges\JumpingOnClouds.cs" />
     <Compile Include="Interview Prep Kit\Warmup Challenges\RepeatedString.cs" />
     <Compile Include="Interview Prep Kit\Warmup Challenges\SockMerchant.cs" />
+    <Compile Include="Interview Test\GSquad HackerRank\Q1.cs" />
     <Compile Include="Interview Test\Thompson Reuters\Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="TestCases\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Interview Prep Kit\Arrays\MinimumSwap_FailedTestCase_10.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
